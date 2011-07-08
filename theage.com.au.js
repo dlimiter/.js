@@ -5,7 +5,7 @@ $('.ad').remove();
 $('.fN-affiliateStrip').remove();
 $('.c5.classifieds.cfix').remove();
 // Big background ad
-$("a:contains('Advertisement')").remove();
+$(".cA-gutter.gutter-full > a:contains('Advertisement')").remove();
 
 /*
 Flashy distracty non-content
