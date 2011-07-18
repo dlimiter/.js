@@ -4,8 +4,10 @@ Ads
 $('.ad').remove();
 $('.fN-affiliateStrip').remove();
 $('.c5.classifieds.cfix').remove();
-// Big background ad
-$(".cA-gutter.gutter-full > a:contains('Advertisement')").remove();
+
+// Page gutter with inline style definiton for ads (also contains the actual ad element) 
+$('.cA-gutter.gutter-full').remove();
+// $(".cA-gutter.gutter-full > a:contains('Advertisement')").remove();
 
 /*
 Flashy distracty non-content
